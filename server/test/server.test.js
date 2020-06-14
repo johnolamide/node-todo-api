@@ -6,7 +6,7 @@ const {app} = require('./../server');
 const {Todo} = require('./../models/todo');
 
 const todos = [{
-  _id: new ObjectId();
+  _id: new ObjectId(),
   text: 'First test todo'
 }, {
   _id: new ObjectId();
